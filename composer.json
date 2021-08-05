@@ -21,12 +21,16 @@
         "friendsofphp/php-cs-fixer": "^3.0",
         "phpunit/phpunit": "^9.5",
         "spatie/ray": "^1.28",
-        "vimeo/psalm": "^4.8"
+        "vimeo/psalm": "^4.8",
+        "patrikgrinsvall/laravel-asap":"*"
     },
     "autoload": {
         "psr-4": {
             "VendorName\\Skeleton\\": "src"
         }
+    },
+    "repositories":{
+        "github.com:patrikgrinsvall/laravel-asap!
     },
     "autoload-dev": {
         "psr-4": {
